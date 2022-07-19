@@ -34,8 +34,8 @@ two_infty_sim <- function(p,r,C,sigmas,ntrials) {
     }
     return(vals)
   }
-  rownames(toreturn) <- sigmas
-  colnames(toreturn) <- ntrials
+  #rownames(toreturn) <- sigmas
+  #colnames(toreturn) <- ntrials
   
   return(toreturn)
   
