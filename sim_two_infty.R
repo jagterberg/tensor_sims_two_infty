@@ -9,6 +9,6 @@ p <- 100
 ntrials <- 100
 sigmas <- seq(1,50,5)
 
-final_res <- tensor_two_infty(p,r,C,sigmas,ntrials)
+final_res <- two_infty_sim(p,r,C,sigmas,ntrials)
 save(final_res,file = "sim_7-19.Rdata")
 print("sims done.")
