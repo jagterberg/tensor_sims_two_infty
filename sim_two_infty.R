@@ -1,15 +1,7 @@
 source("misc.R")
 source("tensor_two_infty.R")
-if (!require(pushoverr)) {
-  install.packages("pushoverr")
-  library(pushoverr)
-}
 
-set_pushover_user(user = "utzcfs3wkwvzxi2h88w3dq1vixadsk")
-set_pushover_app(token = "aznj99sdeso5cndn1mtrsb6ji1te9i")
-pushover(message = "simulations started!")
-
-print("got here!")
+print("packages loaded.")
 set.seed(1234)
 r <- 3
 C <- array(runif(r^3),dim=rep(r,3))
@@ -23,5 +15,5 @@ save(final_res,file = "sim_7-19.Rdata")
 print("sims done.")
 #set_pushover_user(user = "utzcfs3wkwvzxi2h88w3dq1vixadsk")
 #set_pushover_app(token = "aznj99sdeso5cndn1mtrsb6ji1te9i")
-pushover(message = "simulations finished!")
+#pushover(message = "simulations finished!")
 rowMeans(final_res)
