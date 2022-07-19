@@ -1,57 +1,0 @@
-Loading required package: irlba
-Loading required package: Matrix
-Loading required package: rTensor
-Installing package into ‘/cis/home/jagterb1/R/x86_64-pc-linux-gnu-library/3.4’
-(as ‘lib’ is unspecified)
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 3396k    0  3477    0     0   2877      0  0:20:08  0:00:01  0:20:07  3195 60 3396k   60 2041k    0     0   932k      0  0:00:03  0:00:02  0:00:01  987k100 3396k  100 3396k    0     0  1446k      0  0:00:02  0:00:02 --:--:-- 1524k
-* installing *source* package ‘rTensor’ ...
-** package ‘rTensor’ successfully unpacked and MD5 sums checked
-** R
-** data
-*** moving datasets to lazyload DB
-** preparing package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** testing if installed package can be loaded
-* DONE (rTensor)
-
-The downloaded source packages are in
-	‘/tmp/RtmpHfAb7d/downloaded_packages’
-Loading required package: methods
-Loading required package: gtools
-Installing package into ‘/cis/home/jagterb1/R/x86_64-pc-linux-gnu-library/3.4’
-(as ‘lib’ is unspecified)
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 64855  100 64855    0     0  53598      0  0:00:01  0:00:01 --:--:-- 53687
-* installing *source* package ‘gtools’ ...
-** package ‘gtools’ successfully unpacked and MD5 sums checked
-** libs
-gcc -std=gnu99 -I/opt/microsoft/ropen/3.4.3/lib64/R/include -DNDEBUG   -I/usr/local/include -DU_STATIC_IMPLEMENTATION   -fpic  -DU_STATIC_IMPLEMENTATION -g -O2  -c roman2int.c -o roman2int.o
-gcc -std=gnu99 -I/opt/microsoft/ropen/3.4.3/lib64/R/include -DNDEBUG   -I/usr/local/include -DU_STATIC_IMPLEMENTATION   -fpic  -DU_STATIC_IMPLEMENTATION -g -O2  -c setTCPNoDelay.c -o setTCPNoDelay.o
-gcc -std=gnu99 -shared -L/usr/local/lib64 -o gtools.so roman2int.o setTCPNoDelay.o
-installing to /cis/home/jagterb1/R/x86_64-pc-linux-gnu-library/3.4/gtools/libs
-** R
-** data
-** inst
-** preparing package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** testing if installed package can be loaded
-* DONE (gtools)
-
-The downloaded source packages are in
-	‘/tmp/RtmpHfAb7d/downloaded_packages’
-Loading required package: foreach
-Loading required package: doParallel
-Loading required package: iterators
-Loading required package: parallel
-Warning messages:
-1: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called ‘rTensor’
-2: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called ‘gtools’
