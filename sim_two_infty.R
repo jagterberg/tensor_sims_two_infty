@@ -6,6 +6,7 @@ if (!require(pushoverr)) {
 }
 
 print("got here!")
+set.seed(1234)
 r <- 3
 C <- array(runif(r^3),dim=rep(r,3))
 C <- as.tensor(C)
