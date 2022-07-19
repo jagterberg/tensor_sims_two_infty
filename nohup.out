@@ -1,0 +1,16 @@
+Loading required package: irlba
+Loading required package: Matrix
+Loading required package: rTensor
+Loading required package: methods
+Loading required package: gtools
+Loading required package: foreach
+Loading required package: doParallel
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: pushoverr
+Error in curl::curl_fetch_memory(url, handle = handle) : 
+  error setting certificate verify locations:
+  CAfile: microsoft-r-cacert.pem
+  CApath: none
+Calls: pushover ... request_fetch -> request_fetch.write_memory -> <Anonymous> -> .Call
+Execution halted
