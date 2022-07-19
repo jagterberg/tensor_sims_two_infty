@@ -1,0 +1,13 @@
+Loading required package: irlba
+Loading required package: Matrix
+Loading required package: rTensor
+Loading required package: methods
+Loading required package: gtools
+Loading required package: foreach
+Loading required package: doParallel
+Loading required package: iterators
+Loading required package: parallel
+[1] "got here!"
+Error in tensor_two_infty(p, r, C, sigmas, ntrials) : 
+  could not find function "tensor_two_infty"
+Execution halted
