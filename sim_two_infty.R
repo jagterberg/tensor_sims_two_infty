@@ -5,6 +5,10 @@ if (!require(pushoverr)) {
   library(pushoverr)
 }
 
+set_pushover_user(user = "utzcfs3wkwvzxi2h88w3dq1vixadsk")
+set_pushover_app(token = "aznj99sdeso5cndn1mtrsb6ji1te9i")
+pushover(message = "simulations started!")
+
 print("got here!")
 set.seed(1234)
 r <- 3
@@ -17,7 +21,7 @@ sigmas <- seq(5,50,1)
 final_res <- two_infty_sim(p,r,C,sigmas,ntrials)
 save(final_res,file = "sim_7-19.Rdata")
 print("sims done.")
-set_pushover_user(user = "utzcfs3wkwvzxi2h88w3dq1vixadsk")
-set_pushover_app(token = "aznj99sdeso5cndn1mtrsb6ji1te9i")
+#set_pushover_user(user = "utzcfs3wkwvzxi2h88w3dq1vixadsk")
+#set_pushover_app(token = "aznj99sdeso5cndn1mtrsb6ji1te9i")
 pushover(message = "simulations finished!")
 rowMeans(final_res)
