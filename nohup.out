@@ -8,6 +8,8 @@ Loading required package: doParallel
 Loading required package: iterators
 Loading required package: parallel
 [1] "got here!"
-Error in tensor_two_infty(p, r, C, sigmas, ntrials) : 
-  could not find function "tensor_two_infty"
+[1] "got here 2!"
+Error in dimnames(x) <- dn : 
+  length of 'dimnames' [2] not equal to array extent
+Calls: two_infty_sim -> colnames<-
 Execution halted
