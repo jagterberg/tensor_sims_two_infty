@@ -20,7 +20,7 @@ two_infty_sim <- function(p,r,C,sigmas,ntrials) {
   T_true <- ttm(ttm(ttm(C,Pi1,m=1),Pi2,m=2),Pi3,m=3)
   T1 <- k_unfold(T_true,1)@data
   Utrue1 <- irlba(T1,3,3)$u
-  
+  print("got here 2!")
   # for each noise level
   toreturn <- foreach(sigmavals= c(1:length(sigmas)),.combine=rbind) %dopar% {
     sds <- runif(p^3,0,sigmas[sigmavals])
