@@ -7,10 +7,13 @@ Loading required package: foreach
 Loading required package: doParallel
 Loading required package: iterators
 Loading required package: parallel
-Loading required package: pushoverr
-Error in curl::curl_fetch_memory(url, handle = handle) : 
-  error setting certificate verify locations:
-  CAfile: microsoft-r-cacert.pem
-  CApath: none
-Calls: pushover ... request_fetch -> request_fetch.write_memory -> <Anonymous> -> .Call
-Execution halted
+[1] "packages loaded."
+[1] "got here 2!"
+[1] "sims done."
+ [1] 0.1929149 0.2411597 0.2526539 0.2598787 0.2676722 0.2686040 0.2710418
+ [8] 0.2729651 0.2707532 0.2706487 0.2708451 0.2693430 0.2734210 0.2723913
+[15] 0.2736976 0.2729385 0.2695241 0.2709222 0.2712329 0.2724292 0.2702379
+[22] 0.2711843 0.2717457 0.2717720 0.2724923 0.2722249 0.2715650 0.2716618
+[29] 0.2732109 0.2727650 0.2728193 0.2732380 0.2725357 0.2726909 0.2716794
+[36] 0.2728125 0.2706295 0.2708319 0.2715589 0.2720716 0.2727164 0.2723120
+[43] 0.2718451 0.2725704 0.2730383 0.2734318
